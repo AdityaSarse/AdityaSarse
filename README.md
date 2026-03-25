@@ -7,4 +7,4 @@ Creating clean, modern, and intuitive user interfaces.
 - 🚀 Currently improving frontend and UI/UX  
 - 🌱 Always learning and refining design thinking  
 - 💬 Ask me about UI, frontend, or design  
-- 📫 Reach me at: yourmail@example.com  
+- 📫 Reach me at: adiyasarse362@gmail.com  
