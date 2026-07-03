@@ -1,28 +1,42 @@
-## Hey there 👋
+## Hi, I'm Aditya 👋
 
-I enjoy building things that are simple, useful, and feel good to use.  
-Focused on turning ideas into smooth and meaningful digital experiences.
+I build modern web applications with a focus on performance, usability, and thoughtful design.
 
----
-
-### ✨ A Bit About Me
-
-- 🎨 I like clean and minimal design  
-- ⚡ I care about user experience and smooth interactions  
-- 🌱 Always learning and refining my frontend & UI skills  
+I'm passionate about creating products that are simple, intuitive, and enjoyable to use.
 
 ---
 
-### 🛠️ Tools & Tech
+## About
 
-React • Next.js • TypeScript • Tailwind CSS  
-Redux • GSAP • Three.js • Framer Motion  
-Figma • Wix • Framer • Webflow  
+- Frontend-focused Full Stack Developer
+- Passionate about UI engineering and user experience
+- Interested in creative web development with Three.js and modern web technologies
+- Continuously learning by building real-world projects
 
 ---
 
-### 🚀 What I’m Doing
+## Tech Stack
 
-- Building modern and interactive web interfaces  
-- Improving animations and user interactions  
-- Exploring creative frontend (3D, motion, smooth UX)  
+**Frontend**
+
+React · Next.js · TypeScript · JavaScript · Tailwind CSS
+
+**Backend**
+
+Node.js · Express.js
+
+**Database**
+
+MongoDB · PostgreSQL · Supabase
+
+**Tools**
+
+Git · GitHub · Figma · Three.js · GSAP · Framer Motion
+
+---
+
+## Current Focus
+
+- Building performant and accessible web applications
+- Exploring creative frontend experiences with Three.js
+- Developing AI-powered and full stack projects
