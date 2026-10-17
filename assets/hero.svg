@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 330" width="830" height="330">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#9333ea"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+<linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#fef9c3"/><stop offset="1" stop-color="#a5f3fc"/></linearGradient>
+<linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#fff" stroke-opacity=".12"/></pattern>
+<clipPath id="c"><rect width="830" height="330" rx="22"/></clipPath>
+</defs>
+<style>
+.b1{animation:d1 9s ease-in-out infinite}.b2{animation:d2 11s ease-in-out infinite}.b3{animation:d3 8s ease-in-out infinite}
+@keyframes d1{50%{transform:translate(90px,50px)}}@keyframes d2{50%{transform:translate(-110px,-40px)}}@keyframes d3{50%{transform:translate(-60px,70px)}}
+.g{font:700 26px 'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;fill:#ffffff;opacity:.5}
+.g1{animation:f 6s ease-in-out infinite}.g2{animation:f 7s ease-in-out infinite -2s}.g3{animation:f 5s ease-in-out infinite -1s}.g4{animation:f 8s ease-in-out infinite -3s}
+@keyframes f{50%{transform:translateY(-16px)}}
+.name{font:800 66px 'Segoe UI','Helvetica Neue',Arial,sans-serif;letter-spacing:5px;fill:url(#tx);animation:in 1.2s ease-out both}
+.sub{font:600 22px 'Segoe UI','Helvetica Neue',Arial,sans-serif;fill:#ffffff;animation:in 1.2s .4s ease-out both}
+.tag{font:600 16px 'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;animation:in 1.2s .8s ease-out both}
+@keyframes in{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.pulse{animation:p 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes p{0%{transform:scale(1);opacity:1}100%{transform:scale(2.6);opacity:0}}
+</style>
+<g clip-path="url(#c)">
+<rect width="830" height="330" fill="url(#bg)"/>
+<rect width="830" height="330" fill="url(#grid)"/>
+<g filter="url(#blur)">
+<circle class="b1" cx="140" cy="90" r="95" fill="#22d3ee" opacity=".55"/>
+<circle class="b2" cx="710" cy="260" r="105" fill="#fde047" opacity=".45"/>
+<circle class="b3" cx="560" cy="50" r="75" fill="#ffffff" opacity=".28"/>
+</g>
+<text class="g g1" x="60" y="70">&lt;/&gt;</text>
+<text class="g g2" x="730" y="80">{ }</text>
+<text class="g g3" x="86" y="290">( )</text>
+<text class="g g4" x="700" y="300">=&gt;</text>
+<path id="orb" d="M60,170 a355,118 0 1,0 710,0 a355,118 0 1,0 -710,0" fill="none" stroke="#ffffff" stroke-opacity=".4" stroke-dasharray="4 8"/>
+<circle r="5" fill="#ffffff"><animateMotion dur="14s" repeatCount="indefinite"><mpath href="#orb"/></animateMotion></circle>
+<circle r="4" fill="#fde047"><animateMotion dur="14s" begin="-5s" repeatCount="indefinite"><mpath href="#orb"/></animateMotion></circle>
+<circle r="3.5" fill="#67e8f9"><animateMotion dur="14s" begin="-10s" repeatCount="indefinite"><mpath href="#orb"/></animateMotion></circle>
+<text class="name" x="415" y="158" text-anchor="middle">ADITYA SARSE</text>
+<text class="sub" x="415" y="200" text-anchor="middle">Full Stack Developer  ×  Designer at heart</text>
+<text class="tag" x="247.0" y="238" fill="#ffffff">design</text>
+<text class="tag" x="314.2" y="238" fill="#ffffff" fill-opacity=".7">→</text>
+<text class="tag" x="333.4" y="238" fill="#fef08a">build</text>
+<text class="tag" x="391.0" y="238" fill="#ffffff" fill-opacity=".7">→</text>
+<text class="tag" x="410.2" y="238" fill="#a5f3fc">ship</text>
+<text class="tag" x="458.2" y="238" fill="#ffffff" fill-opacity=".7">·</text>
+<text class="tag" x="477.4" y="238" fill="#ffffff">Pune, India</text>
+<rect x="215" y="258" width="400" height="2" fill="url(#ln)"/>
+<g transform="translate(327,282)">
+<rect width="176" height="30" rx="15" fill="#ffffff" stroke="#bbf7d0"/>
+<circle class="pulse" cx="20" cy="15" r="5" fill="#16a34a"/>
+<circle cx="20" cy="15" r="5" fill="#16a34a"/>
+<text x="36" y="20" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="700" fill="#15803d" letter-spacing="1">OPEN TO WORK</text>
+</g>
+</g>
+</svg>
